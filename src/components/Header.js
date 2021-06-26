@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 export function Header() {
     return (
@@ -7,10 +7,10 @@ export function Header() {
             <h1>Dan Ryan</h1>
             <nav>
                 <ul>
-                    <li><a href=''>About Me</a></li>
-                    <li><a href=''>Portfolio</a></li>
-                    <li><a href=''>Contact</a></li>
-                    <li><a href=''>Resume</a></li>
+                    <li><a href='#'>About Me</a></li>
+                    <li><a href='#'>Portfolio</a></li>
+                    <li><a href='#'>Contact</a></li>
+                    <li><a href='#'>Resume</a></li>
                 </ul>
             </nav>
         </header>
