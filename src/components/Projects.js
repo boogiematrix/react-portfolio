@@ -38,3 +38,16 @@ const projectData = [
         image: 'https://raw.githubusercontent.com/boogiematrix/code-quiz/main/Screen%20Shot%202021-03-05%20at%208.01.48%20PM.png',
     }
 ];
+
+export function Projects() {
+    return projectData.map((project) => {
+        <div>
+            <card>
+                <h2>{project.title}</h2>
+                <img src={project.image} alt={project.title} />
+                <p><a href={project.deployedName}>Deployed App</a></p>
+                <p><a href='https://github.com/boogiematrix/'{...project.repoName}>GitHub</a></p>
+            </card>
+        </div>
+    })
+}
