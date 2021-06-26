@@ -40,14 +40,14 @@ const projectData = [
 ];
 
 export function Projects() {
-    return projectData.map((project) => {
-        <div>
-            <card>
+    return projectData.map((project, index) => {
+        return (
+            <div className='card' key={index}>
                 <h2>{project.title}</h2>
                 <img src={project.image} alt={project.title} />
                 <p><a href={project.deployedName}>Deployed App</a></p>
                 <p><a href='https://github.com/boogiematrix/'{...project.repoName}>GitHub</a></p>
-            </card>
-        </div>
+            </div>
+        )
     })
 }
