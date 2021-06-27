@@ -1,5 +1,6 @@
 import React from 'react';
 import './Resume.css'
+import resumePdf from './Resume.pdf';
 
 export function Resume() {
     return (
@@ -23,7 +24,7 @@ export function Resume() {
                     <li>English</li>
                     <li>Spanish</li>
                 </ul>
-            <h3><a href='../../public/Resume.pdf' download="resume-dan-ryan">Download Resume</a></h3>
+            <h3><a href={resumePdf} download="resume-dan-ryan">Download Resume</a></h3>
         </div>
     )
 }

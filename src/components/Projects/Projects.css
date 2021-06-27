@@ -1,3 +1,8 @@
+.card {
+    margin-top: 10px;
+    border-bottom: 5px double var(--primaryaccent);
+}
+
 .cardContent {
     display: flex;
     justify-content: space-evenly;
@@ -8,6 +13,7 @@
     max-height: 300px;
     border: 8px solid var(--compliment);
     display: flex;
+    margin: 10px 0;
 }
 
 .cardContent div {

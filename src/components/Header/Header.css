@@ -57,11 +57,7 @@ header li{
     transition: box-shadow 1s;
 }
 
-button,
-input,
-optgroup,
-select,
-textarea {
+nav button {
   -webkit-appearance: none;
   appearance: none;
   vertical-align: middle;

@@ -5,3 +5,19 @@
 #skills h3 {
     margin: 10px;
 }
+
+a[download] {
+    padding: 20px;
+    margin: 20px 50px;
+    display: block;
+    background-color: var(--compliment);
+    font: inherit;
+    border-radius: 3px;
+    letter-spacing: 1em;
+}
+
+@media screen and (max-width: 438px) {
+    a[download] {
+        margin: 20px 0;
+    }
+} 
