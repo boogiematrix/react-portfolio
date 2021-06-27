@@ -1,0 +1,7 @@
+#skills ul {
+    flex-direction: column;
+}
+
+#skills h3 {
+    margin: 10px;
+}

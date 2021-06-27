@@ -4,7 +4,6 @@ import './Resume.css'
 export function Resume() {
     return (
         <div id="skills">
-            <div >
                 <h3>Skills:</h3>
                 <ul>
                     <li>Javascript</li>
@@ -24,8 +23,7 @@ export function Resume() {
                     <li>English</li>
                     <li>Spanish</li>
                 </ul>
-            </div>
-            <div><a href='../../public/Resume.pdf' download="resume-dan-ryan">Download Resume</a></div>
+            <h3><a href='../../public/Resume.pdf' download="resume-dan-ryan">Download Resume</a></h3>
         </div>
     )
 }
