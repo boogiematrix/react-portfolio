@@ -44,9 +44,13 @@ export function Projects() {
         return (
             <div className='card' key={index}>
                 <h2>{project.title}</h2>
-                <img src={project.image} alt={project.title} />
-                <p><a href={project.deployedName}>Deployed App</a></p>
-                <p><a href='https://github.com/boogiematrix/'>GitHub</a></p>
+                <div className='cardContent'> 
+                    <img src={project.image} alt={project.title} />
+                    <div>
+                        <p><a href={project.deployedName}>Deployed App</a></p>
+                        <p><a href='https://github.com/boogiematrix/'>GitHub</a></p>
+                    </div>
+                </div>
             </div>
         )
     })

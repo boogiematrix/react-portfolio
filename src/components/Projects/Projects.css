@@ -1,0 +1,17 @@
+.cardContent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cardContent img {
+    max-height: 300px;
+    border: 8px solid var(--compliment);
+    display: flex;
+}
+
+.cardContent div {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
