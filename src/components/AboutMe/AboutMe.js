@@ -1,11 +1,12 @@
 import React from 'react';
+import './AboutMe.css'
 
 export function AboutMe() {
     return (
         <div id="summary">
             <p>
-                <span>Hi I'm Dan! I'm full-stack web developer
-                    on a voyage across the cyber seas.</span>
+                Hi I'm Dan! I'm full-stack web developer
+                    on a voyage across the cyber seas.
                         As a lifelong lover of logic and language puzzles, I was lucky to discover
                         that programming for the web is a fountain of deductive opportunities with which to challenge myself.
                         It's invigorating to first lay eyes upon an objective and immediately begin plotting

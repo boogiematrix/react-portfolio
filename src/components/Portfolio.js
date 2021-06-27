@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Header } from './Header';
-import { Footer } from './Footer';
-import { AboutMe } from './AboutMe';
+import { Header } from './Header/Header';
+import { Footer } from './Footer/Footer';
+import { AboutMe } from './AboutMe/AboutMe';
 
 
 export function Portfolio() {

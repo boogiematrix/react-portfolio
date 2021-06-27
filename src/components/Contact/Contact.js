@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import './Contact.css'
 
 export function Contact(props) {
     const [contactName, setContactName] = useState('');

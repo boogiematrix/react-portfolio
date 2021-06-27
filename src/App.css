@@ -1,3 +1,15 @@
+:root{
+    --primary:  rgb(3, 78, 218);
+    --primaryaccent: rgb(168, 191, 253);
+    --compliment: rgb(255, 145, 187);
+    --complimentaccent: rgb(255, 191, 253);
+    --mute: tan;
+    --projects: #43bc6b;
+    --projectsaccent: #85ffae;
+    --resume: #ffe867;
+
+}
+
 * {
     box-sizing: border-box;
     margin: 0;

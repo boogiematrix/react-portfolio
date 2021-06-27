@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Projects.css'
 const projectData = [
     {
         title: 'Fitness Tracker',
@@ -46,7 +46,7 @@ export function Projects() {
                 <h2>{project.title}</h2>
                 <img src={project.image} alt={project.title} />
                 <p><a href={project.deployedName}>Deployed App</a></p>
-                <p><a href='https://github.com/boogiematrix/'{...project.repoName}>GitHub</a></p>
+                <p><a href='https://github.com/boogiematrix/'>GitHub</a></p>
             </div>
         )
     })
