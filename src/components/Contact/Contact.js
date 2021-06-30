@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import './Contact.css'
+import { AboutMe } from '../AboutMe/AboutMe';
 
 export function Contact(props) {
     const [contactName, setContactName] = useState('');
@@ -7,8 +8,9 @@ export function Contact(props) {
     const [message, setMessage] = useState('');
 
     const handleInputChange = (e) => {
-        const { name, value } = e.target;
-
+        const { name } = e.target;
+        const value = e.target.value.trim().toLowerCase()
+        
         if (name === 'contactName') {
             setContactName(value)
         } else if (name === 'email') {
@@ -16,12 +18,21 @@ export function Contact(props) {
         } else {
             setMessage(value)
         }
-
+        
     }
-
+    
     const handleFormSubmit = (e) => {
         e.preventDefault();
-        
+        //const { name } = e.target;
+        const value = e.target.parentNode[1].value.trim().toLowerCase()
+        const emailReg = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        const isValidEmail = emailReg.test(value)
+        if (isValidEmail) {
+            props.setPage(<AboutMe />)
+        } else {
+            console.log('invalid email')
+            setEmail('Invalid email')
+        }
     }
 
     const alertMessage = 'This field is required'
@@ -59,6 +70,7 @@ export function Contact(props) {
                     placeholder={"email"}
                     onBlur={handleBlur}
                 />
+                {email === 'Invalid email' && <span>Please enter valid email</span>}
                 <input
                     value={message}
                     name="message"

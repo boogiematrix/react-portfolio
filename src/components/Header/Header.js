@@ -15,7 +15,7 @@ export function Header(props) {
                 <ul>
                     <li><button href='#' onClick={() => props.setPage(<AboutMe />)}>About Me</button></li>
                     <li><button href='#' onClick={() => props.setPage(<Projects />)}>Projects</button></li>
-                    <li><button href='#' onClick={() => props.setPage(<Contact />)}>Contact</button></li>
+                    <li><button href='#' onClick={() => props.setPage(<Contact setPage={props.setPage}/>)}>Contact</button></li>
                     <li><button href='#' onClick={() => props.setPage(<Resume />)}>Resume</button></li>
                 </ul>
             </nav>
