@@ -9,9 +9,9 @@ export function Contact(props) {
     const handleInputChange = (e) => {
         const { name, value } = e.target;
 
-        if (name === contactName) {
+        if (name === 'contactName') {
             setContactName(value)
-        } else if (name === email) {
+        } else if (name === 'email') {
             setEmail(value)
         } else {
             setMessage(value)
