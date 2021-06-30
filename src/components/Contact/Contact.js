@@ -24,10 +24,20 @@ export function Contact(props) {
         
     }
 
-    let alertMessage = null;
+    const alertMessage = 'This field is required'
 
-    const setPlaceholder = () => {
-        return alertMessage = "This field is required"
+    const handleBlur = (e) => {
+        const { name, value } = e.target;
+        if (!value) {
+            
+            if (name === 'contactName') {
+                setContactName(alertMessage)
+            } else if (name === 'email') {
+                setEmail(alertMessage)
+            } else {
+                setMessage(alertMessage)
+            }
+        } return
     }
 
     return (
@@ -38,24 +48,24 @@ export function Contact(props) {
                     name="contactName"
                     onChange={handleInputChange}
                     type="text"
-                    placeholder={alertMessage || "Name"}
-                    onBlur={setPlaceholder}
+                    placeholder={"Name"}
+                    onBlur={handleBlur}
                 />
                 <input
                     value={email}
                     name="email"
                     onChange={handleInputChange}
                     type="email"
-                    placeholder={alertMessage || "email"}
-                    onBlur={setPlaceholder}
+                    placeholder={"email"}
+                    onBlur={handleBlur}
                 />
                 <input
                     value={message}
                     name="message"
                     onChange={handleInputChange}
                     type="text"
-                    placeholder={alertMessage || "message..."}
-                    onBlur={setPlaceholder}
+                    placeholder={"message..."}
+                    onBlur={handleBlur}
                 />
                 <button type="button" onClick={handleFormSubmit}>
                     Submit
