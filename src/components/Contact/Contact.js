@@ -71,7 +71,7 @@ export function Contact(props) {
                     onBlur={handleBlur}
                 />
                 {email === 'Invalid email' && <span>Please enter valid email</span>}
-                <input
+                <textarea
                     value={message}
                     name="message"
                     onChange={handleInputChange}
