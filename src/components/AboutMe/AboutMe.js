@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutMe.css'
-
+import portrait from './portrait.jpeg'
 export function AboutMe() {
     return (
         <div id="summary">
@@ -16,7 +16,7 @@ export function AboutMe() {
                         and I'm currently working towarods a certificate in full stack web development from
                         the University of Minnesota. Feel free to contact me if you like my work!
             </p>
-            <img src='https://github.com/boogiematrix/portfolio-first/blob/main/assets/images/IMG_6713%20(1)%20copy.jpg?raw=true' alt='This is me' />
+            <img src={portrait} alt='This is me' />
         </div>
     )
 }
