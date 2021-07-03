@@ -54,7 +54,7 @@ export function Projects() {
                     <img src={project.image} alt={project.title} />
                     <div>
                         <p><a href={project.deployedName}>Deployed App</a></p>
-                        <p><a href='https://github.com/boogiematrix/'>GitHub</a></p>
+                        <p><a href={`https://github.com/boogiematrix/${project.repoName}`}>GitHub</a></p>
                     </div>
                 </div>
             </div>
