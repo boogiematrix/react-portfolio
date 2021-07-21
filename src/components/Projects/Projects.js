@@ -12,36 +12,42 @@ const projectData = [
         repoName: 'workout-tracker',
         deployedName: 'https://blooming-scrubland-28026.herokuapp.com/',
         image: workout,
+        description: "This is basically a workout specific note-taking app. It keeps track of weight lifted and workout duration, and displays the data graphically, allowing you to quickly see any changes in your regimen. Using MongoDB, the workout stats are stored in a non-relational data collection. The ODM used for this project is Mongoose. It's deployed to Heroku with MongoDB Atlas"
     },
     {
         title: 'Court Finder',
         repoName: 'court-finder',
         deployedName: 'https://quiet-beyond-45478.herokuapp.com/',
         image: bball,
+        description: 'A pick-up basketball networking app. This is an exercise in implementing the MVC framework. It uses sequelize, handlebars, and express.'
     },
     {
         title: 'Gotta Catch A Vibe',
         repoName: 'Gotta-Catch-A-Vibe',
         deployedName: 'https://boogiematrix.github.io/Gotta-Catch-A-Vibe/',
         image: pokemon,
+        description: 'Provides data on weather-based status boosts for Pokemon Go'
     },
     {
         title: 'Budget Tracker',
         repoName: 'pwa-budget-tracker',
         deployedName: 'https://cryptic-temple-61605.herokuapp.com/',
         image: budget,
+        description: "This is a budget tracking application that allows for offline access and functionality.The user can add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online. This is an exercise in implementing offline functionality"
     },
     {
         title: 'Note Taker',
         repoName: 'note-taker',
         deployedName: 'https://enigmatic-depths-78679.herokuapp.com/',
         image: notes,
+        description: "This is a note taking application that can be used to write and save notes. This application uses an Express.js back end and saves to and retrieves data from a JSON file. Write your note title and text then click the save icon in the upper right to save your note. You can retrieve the note by clicking on the title's text in the left column, or delete it by clicking the trash can icon associated with each note."
     },
     {
         title: 'Code Quiz',
         repoName: 'code-quiz',
         deployedName: 'https://boogiematrix.github.io/code-quiz/',
         image: quiz,
+        description: 'A simple quiz demonstrating DOM manipulation'
     }
 ];
 
@@ -51,7 +57,10 @@ export function Projects() {
             <div className='card' key={index}>
                 <h2>{project.title}</h2>
                 <div className='cardContent'> 
-                    <img src={project.image} alt={project.title} />
+                    <div>
+                        <img src={project.image} alt={project.title} />
+                        <p>{project.description}</p>
+                    </div>
                     <div>
                         <p><a href={project.deployedName}>Deployed App</a></p>
                         <p><a href={`https://github.com/boogiematrix/${project.repoName}`}>GitHub</a></p>
