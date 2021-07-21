@@ -13,7 +13,7 @@ export function AboutMe() {
                         the steps needed for an efficient resolution, only it's so much more exciting with
                         coding because, for one, the outcomes are real, and because the solutions grow and develop
                         before our eyes. I studied Spanish art and literature for four years at Carleton College
-                        and I'm currently working towarods a certificate in full stack web development from
+                        and I'm currently working towards a certificate in full stack web development from
                         the University of Minnesota. Feel free to contact me if you like my work!
             </p>
             <img src={portrait} alt='This is me' />
