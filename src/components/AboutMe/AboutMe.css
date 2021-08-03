@@ -19,7 +19,19 @@
     height: auto;
 }
 
-@media screen and (max-width: 620px) {
+#skills {
+    margin: 0 5px 5px 5px;
+}
+
+#skills ul {
+    flex-direction: column;
+}
+
+#skills h3 {
+    margin: 10px;
+}
+
+@media screen and (max-width: 850px) {
    #summary {
     flex-direction: column;
    } 
