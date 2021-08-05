@@ -23,7 +23,9 @@
 }
 
 .cardContent p {
-    display: block;
-    margin: 0 auto;
     padding: 15px;
+}
+
+.imageWrapper {
+    max-width: 600px;
 }

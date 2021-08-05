@@ -6,7 +6,15 @@ import notes from './images/notes-screenshot.png';
 import pokemon from './images/pokemonHeader.png';
 import quiz from './images/quiz-screenshot.png';
 import workout from './images/workout-tracker-screenshot.png';
+import books from './images/googlebooks-screenshot.png'
 const projectData = [
+    {
+        title: 'Book Search',
+        repoName: 'book-search',
+        deployedName: 'https://boiling-basin-57000.herokuapp.com/',
+        image: books,
+        description: "This is a Google Books API search engine. It was refactored from a fully functioning RESTful API into one built with Apollo Server and GraphQL. The app was based on the MERN stack model with a React front end, MongoDB database, and Node.js/Express.js server and API. In addition to being able to search for books, if signed in, the user can save the books that catch their eye. Later, the user can delete those books once they've been read."
+    },
     {
         title: 'Fitness Tracker',
         repoName: 'workout-tracker',
@@ -42,13 +50,13 @@ const projectData = [
         image: notes,
         description: "This is a note taking application that can be used to write and save notes. This application uses an Express.js back end and saves to and retrieves data from a JSON file. Write your note title and text then click the save icon in the upper right to save your note. You can retrieve the note by clicking on the title's text in the left column, or delete it by clicking the trash can icon associated with each note."
     },
-    {
-        title: 'Code Quiz',
-        repoName: 'code-quiz',
-        deployedName: 'https://boogiematrix.github.io/code-quiz/',
-        image: quiz,
-        description: 'A simple quiz demonstrating DOM manipulation'
-    }
+    // {
+    //     title: 'Code Quiz',
+    //     repoName: 'code-quiz',
+    //     deployedName: 'https://boogiematrix.github.io/code-quiz/',
+    //     image: quiz,
+    //     description: 'A simple quiz demonstrating DOM manipulation'
+    // },
 ];
 
 export function Projects() {
@@ -57,7 +65,7 @@ export function Projects() {
             <div className='card' key={index}>
                 <h2>{project.title}</h2>
                 <div className='cardContent'> 
-                    <div>
+                    <div className='imageWrapper'>
                         <img src={project.image} alt={project.title} />
                         <p>{project.description}</p>
                     </div>
