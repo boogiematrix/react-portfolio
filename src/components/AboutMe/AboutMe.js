@@ -20,7 +20,7 @@ export function AboutMe() {
             <div id="skills">
                 <h3>Skills:</h3>
                 <ul>
-                    <li>Javascript</li>
+                    <li>JavaScript</li>
                     <li>CSS3</li>
                     <li>HTML5</li>
                     <li>ES6~plus</li>
@@ -28,9 +28,12 @@ export function AboutMe() {
                     <li>TDD</li>
                     <li>Express</li>
                     <li>MongoDB</li>
+                    <li>Mongoose</li>
                     <li>SQL</li>
                     <li>Handlebars</li>
                     <li>Sequelize</li>
+                    <li>React</li>
+                    <li>Apollo GraphQL</li>
                 </ul>
                 <h3>Languages:</h3>
                 <ul>
