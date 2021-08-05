@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.cdc9d0ab.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.5fb9cf6b.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.5fb9cf6b.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.78becd81.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.fdc2d4e7.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.fdc2d4e7.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.7cb87ace.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.7cb87ace.js.map",
     "static/js/2.bfa65e52.chunk.js": "/react-portfolio/static/js/2.bfa65e52.chunk.js",
@@ -10,21 +10,21 @@
     "static/js/3.9b091d9d.chunk.js": "/react-portfolio/static/js/3.9b091d9d.chunk.js",
     "static/js/3.9b091d9d.chunk.js.map": "/react-portfolio/static/js/3.9b091d9d.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.cdc9d0ab.chunk.css.map": "/react-portfolio/static/css/main.cdc9d0ab.chunk.css.map",
+    "static/css/main.78becd81.chunk.css.map": "/react-portfolio/static/css/main.78becd81.chunk.css.map",
     "static/js/2.bfa65e52.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.bfa65e52.chunk.js.LICENSE.txt",
     "static/media/Resume.166b519b.pdf": "/react-portfolio/static/media/Resume.166b519b.pdf",
     "static/media/bball-screenshot.d931ce60.png": "/react-portfolio/static/media/bball-screenshot.d931ce60.png",
     "static/media/budget-tracker-screenshot.cbb6dc06.png": "/react-portfolio/static/media/budget-tracker-screenshot.cbb6dc06.png",
+    "static/media/googlebooks-screenshot.b047f226.png": "/react-portfolio/static/media/googlebooks-screenshot.b047f226.png",
     "static/media/notes-screenshot.4e12b718.png": "/react-portfolio/static/media/notes-screenshot.4e12b718.png",
     "static/media/pokemonHeader.951914a3.png": "/react-portfolio/static/media/pokemonHeader.951914a3.png",
     "static/media/portrait.f5b75153.jpeg": "/react-portfolio/static/media/portrait.f5b75153.jpeg",
-    "static/media/quiz-screenshot.c20f313a.png": "/react-portfolio/static/media/quiz-screenshot.c20f313a.png",
     "static/media/workout-tracker-screenshot.e9ddb3f5.png": "/react-portfolio/static/media/workout-tracker-screenshot.e9ddb3f5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7cb87ace.js",
     "static/js/2.bfa65e52.chunk.js",
-    "static/css/main.cdc9d0ab.chunk.css",
-    "static/js/main.5fb9cf6b.chunk.js"
+    "static/css/main.78becd81.chunk.css",
+    "static/js/main.fdc2d4e7.chunk.js"
   ]
 }
