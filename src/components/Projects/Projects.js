@@ -4,7 +4,7 @@ import bball from './images/bball-screenshot.png';
 import budget from './images/budget-tracker-screenshot.png';
 import notes from './images/notes-screenshot.png';
 import pokemon from './images/pokemonHeader.png';
-import quiz from './images/quiz-screenshot.png';
+//import quiz from './images/quiz-screenshot.png';
 import workout from './images/workout-tracker-screenshot.png';
 import books from './images/googlebooks-screenshot.png'
 const projectData = [
