@@ -34,14 +34,14 @@ const projectData = [
         repoName: 'Gotta-Catch-A-Vibe',
         deployedName: 'https://boogiematrix.github.io/Gotta-Catch-A-Vibe/',
         image: pokemon,
-        description: 'Provides data on weather-based status boosts for Pokemon Go'
+        description: 'Provides data on weather-based status boosts for Pokemon Go. Weather data comes from the openWeather API. Pokemon data comes from the Pokemon Go API, and the PokeAPI. We also used Tailwind for styling.'
     },
     {
         title: 'Budget Tracker',
         repoName: 'pwa-budget-tracker',
         deployedName: 'https://cryptic-temple-61605.herokuapp.com/',
         image: budget,
-        description: "This is a budget tracking application that allows for offline access and functionality.The user can add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online. This is an exercise in implementing offline functionality"
+        description: "This is a budget tracking application that allows for offline access and functionality.The user can add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online. This is an exercise in implementing offline functionality. It uses the browser's indexDB while offline, and MongoDB while online."
     },
     {
         title: 'Note Taker',
