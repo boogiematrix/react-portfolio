@@ -1,10 +1,3 @@
-#skills ul {
-    flex-direction: column;
-}
-
-#skills h3 {
-    margin: 10px;
-}
 
 a[download] {
     padding: 20px;
@@ -14,6 +7,12 @@ a[download] {
     font: inherit;
     border-radius: 3px;
     letter-spacing: 1em;
+    box-shadow: 0px 0px var(--compliment);
+    transition: box-shadow 1s;
+}
+
+a[download]:hover {
+    box-shadow: 5px 5px var(--complimentaccent);
 }
 
 @media screen and (max-width: 438px) {

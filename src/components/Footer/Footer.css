@@ -1,12 +1,14 @@
 footer {
     background-color: var(--primary);
     color: var(--primaryaccent);
-    height: 100px;
+    height: 10vh;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    width: 105%;
+    width: 100%;
+    position:fixed;
+    bottom: 0vh;
 }
 
 footer h2 {

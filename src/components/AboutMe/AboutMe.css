@@ -1,5 +1,6 @@
  #summary {
      display: flex;
+     margin-top: 10px;
  }
 
  p {
@@ -8,19 +9,14 @@
  }
  
  #summary img {
-    max-width: 350px;
     max-height: 300px;
-    margin: 0 auto;
+    margin: 10px auto;
     border: 8px solid var(--compliment);
-    box-shadow: 0px 0px black;
-    transition: box-shadow 1s;
     flex: 1 2;
-    width: auto;
-    height: auto;
 }
 
 #skills {
-    margin: 0 5px 5px 5px;
+    margin: 0 20px 5px 20px;
 }
 
 #skills ul {
@@ -34,5 +30,6 @@
 @media screen and (max-width: 850px) {
    #summary {
     flex-direction: column;
+    margin-bottom: 10vh;
    } 
 }
